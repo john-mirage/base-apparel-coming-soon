@@ -1,10 +1,10 @@
 import './assets/styles/style.css'
 import { string } from 'yup'
 
-const emailButton = document.getElementById("email-button")
-const emailInput = document.getElementById("email-input")
-const emailErrorIcon = document.getElementById("email-error-icon")
-const emailErrorMessage = document.getElementById("email-error-message")
+const emailButton = document.getElementById("email-button") as HTMLButtonElement;
+const emailInput = document.getElementById("email-input") as HTMLInputElement;
+const emailErrorIcon = document.getElementById("email-error-icon") as HTMLElement;
+const emailErrorMessage = document.getElementById("email-error-message") as HTMLElement;
 
 let emailIsValid: boolean = true
 
